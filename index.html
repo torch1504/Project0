@@ -9,9 +9,19 @@
             <span><a href="adv_search.html">Advanced Search</a></span>
             <span><a href="img_search.html">Image Search</a></span>
         </nav>
+
+        <div class="logo">
+            <img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        </div>
+
         <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+            <div class="search_bar">
+                <input id="text_bar" type="text" name="q">
+            </div>
+            <div id="buttons">
+                <input class="search_button" type="submit" value="Google Search">
+                <input class="search_button" type="submit" value="I'm Feeling Lucky">
+            </div>
         </form>
     </body>
 </html>
