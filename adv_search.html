@@ -10,27 +10,35 @@
             <span><a href="img_search.html">Image Search</a></span>
         </nav>
         <form action="https://google.com/search">
-            <div>
-                <span>all these words:</span>
-                <input type="text" name="as_q">
-                <span>Type the important words:  tricolor rat terrier</span>
-            </div>
-            <div>
-                <span>this exact word or phrase:</span>
-                <input type="text" name="as_q">
-                <span>Put exact words in quotes:  "rat terrier"</span>
-            </div>
-            <div>
-                <span>any of these words:</span>
-                <input type="text" name="as_q">
-                <span>Type OR between all the words you want:  miniature OR standard</span>
-            </div>
-            <div>
-                <span>none of these words:</span>
-                <input type="text" name="as_q">
-                <span>Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</span>
-            </div>
-            <input type="submit" value="Advanced Search">
+
+            <table>
+                <tr>
+                    <td> Find pages with...</td>
+                    <td></td>
+                    <td>To do this in the search box</td>
+                </tr>
+                <tr>
+                    <td><span>all these words:</span></td>
+                    <td><input type="text" name="as_q"></td>
+                    <td><span>Type the important words:  tricolor rat terrier</span></td>
+                </tr>
+                <tr>
+                    <td><span>this exact word or phrase:</span> </td>
+                    <td><input type="text" name="as_q"></td>
+                    <td><span>Put exact words in quotes:  "rat terrier"</span></td>
+                </tr>
+                <tr>
+                    <td><span>any of these words:</span></td>
+                    <td><input type="text" name="as_q"></td>
+                    <td><span>Type OR between all the words you want:  miniature OR standard</span></td>
+                </tr>
+                <tr>
+                    <td><span>none of these words:</span></td>
+                    <td><input type="text" name="as_q"></td>
+                    <td><span>Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"</span></td>
+                </tr>
+            </table>
+            <input id="adv_button" type="submit" value="Advanced Search">
         </form>
     </body>
 </html>
